@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Raleway";
 }
@@ -77,9 +83,8 @@ footer p {
 }
 
 main {
-  margin: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .contact-name {
@@ -91,3 +96,12 @@ main {
   border-bottom-width: 5px;
   border-bottom: solid 1px #d0d0d0;
 }
+ @media (max-width: 768px){
+   about {
+     width: 100%;
+   }
+contact-name {
+  width: 100%;
+}
+
+ }
